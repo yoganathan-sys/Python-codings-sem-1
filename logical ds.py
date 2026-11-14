@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([True,False,True])
+b=np.array([True,True,False])
+r=np.logical_and(a,b)
+print(r)
+w=np.logical_or(a,b)
+print(w)
+q=np.logical_not(a,b)
+print(q)
+e=np.logical_xor(a,b)
+print(e)

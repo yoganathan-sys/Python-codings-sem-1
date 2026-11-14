@@ -1,0 +1,5 @@
+n=int(input("Enter the book value:"))
+m=int(input("Enter the book copies:"))
+print("total book value:",n*m)
+print("shipping cost:",m*5)
+print("total amount:",n*m + m*5)

@@ -1,0 +1,5 @@
+n=int(input("Enter the book no:"))
+c=int(input("Enter the book price:"))
+print("one book ship cost:",n*5)
+m=int(input("Enter the balance book no:"))
+print("balance book ship:",m*4)
